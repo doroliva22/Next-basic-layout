@@ -1,0 +1,19 @@
+import { Metadata } from "next";
+
+
+
+export const metadata: Metadata = {
+    title: 'Pricing',
+    description: 'página de precios ',
+};
+
+
+
+
+export default function PricingPage() {
+    return (
+        <>
+            <span className="text-7xl">Pricing Page</span>
+        </>
+    )
+} 
